@@ -1,0 +1,30 @@
+signaling server types (used to denote to the signaling server what type of message is coming in):
+user_table_updated
+sdp_updated
+offer
+answer
+
+
+dataTypes:
+psn:sessionManager:sys:pts:customMessage:noSeq:created
+psn:sessionManager:sys:partySession:created
+psn:sessionManager:sys:partySession:deleted
+psn:sessionManager:sys:pts:maxMembers:updated
+psn:sessionManager:sys:pts:customData1:updated
+psn:sessionManager:sys:pts:customData2:updated
+psn:sessionManager:sys:pts:customData3:updated
+psn:sessionManager:sys:pts:customData4:updated
+psn:sessionManager:sys:pts:members:created
+psn:sessionManager:sys:pts:members:deleted
+psn:sessionManager:sys:pts:m:voiceChatActivated:updated
+psn:sessionManager:sys:pts:m:customData1:updated
+psn:sessionManager:sys:pts:m:customData2:updated
+psn:sessionManager:sys:pts:m:customData3:updated
+psn:sessionManager:sys:pts:m:customData4:updated
+psn:sessionManager:sys:pts:customMessage:created
+psn:sessionManager:sys:pts:bridges:created
+psn:sessionManager:sys:pts:bridges:deleted
+
+
+methods:
+3001 - ??? the only method code used in the signaling server messages
